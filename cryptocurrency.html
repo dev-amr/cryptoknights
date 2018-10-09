@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cryptocurrency | CryptoKnights</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-static-top navbar-default" id="home">
+    <div class="container" id="topContainer">
+        <a class="navbar-brand" rel="home" href="index.html" title="Crypto Knights">
+            <img src="img/CK_logo.png" id="logo"> CRYPTO KNIGHTS
+        </a>
+
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item active"><a href="cryptocurrency.html">Cryptocurrency</a></li>
+                <li class="nav-item"><a href="blockchain.html">Blockchain</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">How To <b class="caret"></b> </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item"><a href="wallet.html">Create Wallet</a></li>
+                        <li class="nav-item"><a href="security.html">Security</a></li>
+                        <li class="nav-item"><a href="trans.html">Transactions</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a href="term.html">Terminology</a></li>
+                <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1>What is Bitcoin</h1>
+        <p>The First successful cryptocurrency that ever created</p>
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/SmExLsqQYEw" allowfullscreen>
+                    </iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s4g1XFU8Gto"  allowfullscreen></iframe>
+                </div>
+            </div><!--panel body end-->
+        </div><!--panel end-->
+        <div class="col-md-12">
+            <h3>What is Bitcoin?</h3>
+            <p>Bitcoin is a new kind of money.  It's the first electronic currency not controlled by a single organization or government.
+                There are currently (sep ’14) over 2 Million user wallets in the Bitcoin network.
+                All over the world people are exchanging hundreds of thousands of pounds worth of bitcoin every day
+                with no middle man and no credit card companies.
+                A user to user (Peer2Peer) network is made up of computers like yours so no bank or payment processor is
+                required between you and whoever you're exchanging Bitcoins with, whether your buying something, sending
+                money to friends or family or you’re a business who accepts Bitcoin.  This decentralization
+                (not being managed by a central computer and authority) is the basis for Bitcoin's Security and Freedom.
+
+                Bitcoin is basically more efficient than regular money because it can flow more freely between
+                users – across a room or from one side of the globe to the other.  Also, Bitcoin has no £5/£10 minimum in
+                shops or on websites, when all you want is a small coffee or a days’ worth of site access, unlike a regular
+                credit or debit card.
+                There can only ever be 21,000,000 Bitcoins and currently there have been around 12,500,000 mined into use.
+                You can’t print more of it, you can’t devalue it like other fiat currencies and so the value of Bitcoin is
+                derived from its ability to provide service to its users.  It’s not backed by a government or bank, it’s backed
+                by the people that use it as a better way to transport value around the planet between people and business.
+            </p>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <p class="navbar-text txtRes">Group 1 - <span class="text-info txtRes">This website is for educational purposes</span></p>
+    </div>
+</div>
+
+
+<div class="modal fade" id="contact" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal">
+                <div class="modal-header">
+                    <h4>Contact Us</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                        <div class="col-lg-10"><input type="text" class="form-control" id="contact-name" placeholder="Full Name"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email" class="col-lg-2 control-label">email:</label>
+                        <div class="col-lg-10"><input type="email" class="form-control" id="contact-email" placeholder="you@example.com"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="8" id="contact-msg"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" data-dismiss="modal">close</a>
+                    <button class="btn btn-primary" type="submit" id="sbmtBtn">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+</script>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

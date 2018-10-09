@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wallets | CryptoKnights</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-static-top navbar-default" id="home">
+    <div class="container" id="topContainer">
+        <a class="navbar-brand" rel="home" href="index.html" title="Crypto Knights">
+            <img src="img/CK_logo.png" id="logo"> CRYPTO KNIGHTS
+        </a>
+
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="cryptocurrency.html">Cryptocurrency</a></li>
+                <li class="nav-item"><a href="blockchain.html">Blockchain</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">How To <b class="caret"></b> </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item"><a href="wallet.html">Create Wallet</a></li>
+                        <li class="nav-item"><a href="security.html">Security</a></li>
+                        <li class="nav-item active"><a href="trans.html">Transactions</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a href="term.html">Terminology</a></li>
+                <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1>Transactions</h1>
+        <p>“I deal in the ideal idea. Buy, sell, or trade, I am offering the best prices on Love.”</p>
+        <p>Jarod Kintz</p>
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Transactions</h2>
+            <p>Bitcoins and other digital currencies can be purchased/exchanged for fiat currencies like the
+                British Pound, US Dollar, Euros and many others in many different ways.
+                Some ways are of course safer than others.</p>
+            <p>Is as easy as scanning the QR code or entering the address of whoever
+                you want to send bitcoins to, enter the amount, check everything is correct
+                and hit send.  Receiving bitcoins into your wallet is just as easy.
+                As easy as sending an email from your private email address.
+                log in – decide what you want to send and to who – press send.
+            </p>
+            <p>So what now? Go out and spend your Bitcoins in a coffee shop, on a flight to a sunny destination,
+                hold as an investment, transfer funds to your friends or loved ones abroad or right next to you.
+                The choice is entirely yours. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb down grow">
+            <a href="http://amazon.co.uk" target="_blank" >
+                <img src="img/amazon.png" alt="amazon.co.uk" class="img-responsive tbl">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb down grow">
+                <a href="http://uk.webuy.com/" target="_blank" >
+                    <img src="img/cex.png" alt="cex logo" class="img-responsive tbl jtIndex">
+                </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb down grow">
+                    <a href="https://www.victoriassecret.com/" target="_blank" >
+                        <img src="img/VS.png" alt="cex logo" class="img-responsive tbl">
+                    </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb down grow">
+            <a href="https://twitter.com/cafesawmill" target="_blank" >
+                <img src="img/SM.jpeg" alt="the sawmill cafe logo" class="img-responsive tbl">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <p class="navbar-text txtRes">Group 1 - <span class="text-info txtRes">This website is for educational purposes</span></p>
+    </div>
+</div>
+
+
+<div class="modal fade" id="contact" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal">
+                <div class="modal-header">
+                    <h4>Contact Us</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                        <div class="col-lg-10"><input type="text" class="form-control" id="contact-name" placeholder="Full Name"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email" class="col-lg-2 control-label">email:</label>
+                        <div class="col-lg-10"><input type="email" class="form-control" id="contact-email" placeholder="you@example.com"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="8" id="contact-msg"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" data-dismiss="modal">close</a>
+                    <button class="btn btn-primary" type="submit" id="sbmt">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+</script>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

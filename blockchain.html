@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blockhain | CryptoKnights</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-static-top navbar-default" id="home">
+    <div class="container" id="topContainer">
+        <a class="navbar-brand" rel="home" href="index.html" title="Crypto Knights">
+            <img src="img/CK_logo.png" id="logo"> CRYPTO KNIGHTS
+        </a>
+
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="cryptocurrency.html">Cryptocurrency</a></li>
+                <li class="nav-item active"><a href="blockchain.html">Blockchain</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">How To <b class="caret"></b> </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item"><a href="wallet.html">Create Wallet</a></li>
+                        <li class="nav-item"><a href="security.html">Security</a></li>
+                        <li class="nav-item"><a href="trans.html">Transactions</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a href="term.html">Terminology</a></li>
+                <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1>Blockchain</h1>
+        <p>The Mighty Record Keeper of the Digital Events</p>
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BdN_-EyB224"  allowfullscreen></iframe>
+            </div>
+        </div><!--panel body end-->
+    </div><!--panel end-->
+    <div class="row">
+        <div class="col-md-12">
+            <h3>The Blockchain</h3>
+            <p>The blockchain is a public ledger of all transactions in the Bitcoin network.
+                Every transaction that has ever happened in Bitcoin is on the blockchain.
+                You can go to the <a href="http://www.blockchain.info" target="_blank">Blockchain.info</a> website and navigate
+                the bitcoin blockchain yourself.
+                If you have an address you can enter it into the website, check the Bitcoin balance and
+                also see the addresses which have transacted with that address.  The blockchain only ever increases
+                in size as new transactions are added to the ledger.  The ledger is built with complex algorithm encryption,
+                the strength of which is supported by the network of wallet users and miners
+                (computers that are used to find new coins).  In other words, the more users bitcoin has the stronger
+                and more secure the network becomes.
+                “As it turns out, the processing power of these computers dedicated to mining for Bitcoins is somewhere
+                between six and eight times greater than all of the top 500 supercomputers combined.” Grant Brunner,
+                ExtremeTech.com May ‘13
+            </p>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <p class="navbar-text txtRes">Group 1 - <span class="text-info txtRes">This website is for educational purposes</span></p>
+    </div>
+</div>
+
+
+<div class="modal fade" id="contact" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal">
+                <div class="modal-header">
+                    <h4>Contact Us</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                        <div class="col-lg-10"><input type="text" class="form-control" id="contact-name" placeholder="Full Name"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email" class="col-lg-2 control-label">email:</label>
+                        <div class="col-lg-10"><input type="email" class="form-control" id="contact-email" placeholder="you@example.com"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="8" id="contact-msg"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" data-dismiss="modal">close</a>
+                    <button class="btn btn-primary" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+</script>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

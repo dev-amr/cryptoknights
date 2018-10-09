@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home | CryptoKnights</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+<body>
+<div id="fb-root"></div>
+<nav class="navbar navbar-static-top navbar-default" id="home">
+    <div class="container" id="topContainer">
+        <a class="navbar-brand" rel="home" href="index.html" title="Crypto Knights">
+            <img src="img/CK_logo.png" id="logo"> CRYPTO KNIGHTS
+        </a>
+
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item active"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="cryptocurrency.html">Cryptocurrency</a></li>
+                <li class="nav-item"><a href="blockchain.html">Blockchain</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">How To <b class="caret"></b> </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item"><a href="wallet.html">Create Wallet</a></li>
+                        <li class="nav-item"><a href="security.html">Security</a></li>
+                        <li class="nav-item"><a href="trans.html">Transactions</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a href="term.html">Terminology</a></li>
+                <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 jumbotron">
+     <!--<img src="img/CK_Full.png" alt="Crypto Knights Logo" class="img-responsive jtIndex"/>-->
+
+     <h1>Your Reliable Guide to  Crypto Currency</h1>
+     <p>Learn all you need to know about crypto currency from the very begining and enter the new age of digital power</p>
+
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-4 port effect box">
+            <div class="imgBox">
+                <img class="img-responsive" src="img/bitcoin1.png" alt="bitcoin image"/>
+            </div>
+            <div class="text-desc">
+            <h3><a href="cryptocurrency.html" >What is Bitcoin?</a></h3>
+            <p>Bitcoin is a new kind of money. It's the first electronic currency not controlled by a single organization or government...</p>
+            <!--<button class="b11" onclick="location.href='cryptocurrency.html'">Read More...</button>-->
+                <!--<a href="cryptocurrency.html" class="btn">Read More..</a>-->
+            </div>
+        </div>
+
+        <div class="col-sm-4 port effect box">
+            <div class="imgBox">
+                <img class="img-responsive" src="img/blockchain1.png" alt="blockchain image"/>
+            </div>
+            <div class="text-desc">
+            <h3><a href="blockchain.html" >The Blockchain</a></h3>
+            <p>The blockchain is a public ledger of all transactions in the Bitcoin network.
+                Every transaction that has ever happened ...</p>
+                <!--<a href="blockchain.html" class="btn">Read More..</a>-->
+            </div>
+        </div>
+
+        <div class="col-sm-4 port effect box">
+            <div class="imgBox">
+                <img class="img-responsive" src="img/wallet1.png" alt="wallet image"/>
+            </div>
+            <div class="text-desc">
+            <h3><a href="wallet.html" >Wallets?</a></h3>
+            <p>A wallet will give you access to your funds...</p>
+            <!--<a href="wallet.html" class="btn">Read More..</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="navbar navbar-default navbar-fixed-bottom ">
+    <div class="container">
+        <p class="text-info">This website is for educational purposes</p>
+    </div>
+</div>
+
+
+<div class="modal fade" id="contact" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal" id="contactForm">
+                <div class="modal-header">
+                <h4>Contact Us</h4>
+                </div>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                            <div class="col-lg-10"><input type="text" class="form-control" id="contact-name" placeholder="Full Name"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email" class="col-lg-2 control-label">email:</label>
+                            <div class="col-lg-10"><input type="email" class="form-control" id="contact-email" placeholder="you@example.com"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8" id="contact-msg"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                <div class="modal-footer">
+                <a class="btn btn-default" data-dismiss="modal">close</a>
+                    <button class="btn btn-primary" type="submit" id="sbmtBtn">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+</script>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
