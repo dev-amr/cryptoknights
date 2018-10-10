@@ -1,0 +1,22 @@
+{
+  "name": "cryptoknights",
+  "version": "1.0.0",
+  "description": "static website about crypto currency",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-amr/cryptoknights.git"
+  },
+  "author": "Amr Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-amr/cryptoknights/issues"
+  },
+  "homepage": "https://dev-amr.github.io/cryptoknights",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
