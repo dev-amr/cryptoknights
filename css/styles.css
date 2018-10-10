@@ -1,0 +1,143 @@
+
+#logo{
+    max-height: 35px;
+    margin-top: -5px;
+    display: inline;
+}
+a.back-to-top{
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 50px;
+    background: cornflowerblue url('../img/up-arrow.png') no-repeat center 43%;
+    opacity: 0.5;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+
+}
+a:hover.back-to-top {
+    background-color: #000;
+    opacity: 0.5;
+}
+body{
+    margin-bottom: 8em;
+    font-size: medium;
+    background-color: #e7e7e7;
+}
+body div{
+    transition:all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.jtIndex{
+    margin: auto;
+    clear: both;
+}
+.advice{
+    text-decoration: none;
+    color: #d43f3a;
+}
+.down{
+    margin-top: 5em;
+}
+.tbl{
+    max-height: 5em;
+}
+
+
+
+
+
+.jumbotron{
+    background-image: url(../img/wallpaper4.png);
+    background-attachment: fixed;
+
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: white;
+}
+.grow:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.linkGrow:hover{
+    text-decoration: none;
+    color: #761c19;
+    font-weight: bold
+}
+
+/* effect image  */
+.port{
+    overflow: hidden;
+    text-align: center;}
+.text-desc{position: absolute; left: 0; top: 0; background-color: #e7e7e7; height: 100%; opacity: 0; width: 100%; padding: 20px;}
+.btn{
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 14px;
+    color: #fff; border: 2px solid #336699;
+    background-color: #4d92d9;
+    text-decoration: none;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.port.effect img{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.port.effect:hover img{
+    transform: scale(0.3) translateY(-110%);
+    -ms-transform: scale(0.3) translateY(-110%);
+    -webkit-transform: scale(0.3) translateY(-110%);
+    -o-transform: scale(0.3) translateY(-110%);
+    -moz-transform: scale(0.3) translateY(-110%);
+    position: relative;
+    z-index: 9;
+}
+.port.effect .text-desc{
+    transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    opacity: 0; padding: 85px 20px 10px;
+    transition: 0.5s;}
+.port.effect:hover .text-desc {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    opacity: 1;
+}
+/* effect image end */
+/*FAQ page*/
+.def{
+    background-image: none;
+    width:80%;
+    margin-left:10%;
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    color: #3c3c3c;
+}
+.dl-horizontal dt{white-space: normal;}
+.omacenter{margin-left:auto;
+    margin-right:auto;}
+.titre{color:#fff;}
+.entete{background-color: #22780F;
+    width:80%;
+    margin-left:10%;}
+
+
